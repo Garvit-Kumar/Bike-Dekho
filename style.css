@@ -1,0 +1,882 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+
+.logo {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 9999;
+    border-bottom: 1px solid rgb(160, 162, 163);
+    background-color: white;
+     overflow-y: hidden;
+
+}
+
+.search i {
+
+    color: #03193bde;
+
+}
+
+.topnav {
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 70px;
+
+
+}
+
+a:hover {
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+.topnav a i {
+    color: #24272CDE;
+
+}
+
+.topnav i {
+    color: #24272CDE;
+}
+
+.Search input {
+    height: 40px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 100px;
+    outline: none;
+    color: #24272CDE;
+    padding-left: 20px;
+    text-size-adjust: 20px;
+    border: none;
+    box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, .1);
+    background: #f7f7f7;
+    border-radius: 5px;
+
+}
+
+button.fa {
+    height: 40px;
+    width: 41px;
+    margin-top: 0px;
+    position: absolute;
+    background-color: rgb(36, 39, 44);
+    border: 1px solid rgb(36, 39, 44);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.Search button i {
+    color: white;
+
+}
+
+.login button.register {
+    margin-top: 10px;
+    color: #24272CDE;
+    border: none;
+    font-size: medium;
+    background-color: white;
+    height: 20px;
+    width: 110px;
+    overflow-y: hidden;
+}
+
+.login i {
+    color: #24272CDE;
+}
+
+#language {
+    height: 30px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: medium;
+    color: #24272CDE;
+    border-radius: 10px;
+
+
+}
+
+option {
+    color: #24272CDE;
+}
+
+.login {
+    top: 30px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+select {
+    color: #24272CDE;
+    margin-left: 10px;
+    border: none;
+}
+
+a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #24272CDE;
+    text-transform: uppercase;
+}
+
+.box {
+
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 400px;
+    width: 300px;
+    color: #24272CDE;
+    background-color: white;
+    border: 2px solid #24272CDE;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box button {
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    margin-top: 20px;
+    color: #24272CDE;
+    border: 1px solid #24272CDE;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.box .searchbutton {
+    height: 40px;
+    width: 250px;
+    margin-top: -10px;
+    color: white;
+    background-color: red;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.box h1 {
+    margin-top: 40px;
+    color: black;
+    font-size: x-large;
+}
+
+.box input {
+    color: #24272CDE;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    margin: 10px;
+
+}
+
+.box select {
+
+    margin: 30px;
+    margin-left: -1px;
+    margin-right: 1px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid #24272CDE;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box input {
+    color: #24272CDE;
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+
+.background {
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    background-image: url(bike\ dekhobg2.webp);
+    background-repeat: no-repeat;
+
+}
+
+.third-part {
+    width: 1210px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    overflow-y: hidden;
+    border-radius: 10px;
+    box-shadow: #24272CDE
+}
+
+.third-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    margin-left: 40p;
+    color: black;
+
+}
+
+.third-part-list {
+    display: flex;
+    justify-content: start;
+    width: 1200px;
+    margin-right: 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid #24272CDE;
+    padding-left: 10px;
+}
+
+.third-part-img {
+    height: 280px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.third-part-img p {
+    color: #24272CDE;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.third-part-img button {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    word-spacing: normal;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.third-part-img button :hover {
+    background-color: red;
+    color: white;
+}
+
+.third-part-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.third-part button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.third-part .most-popular a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.most-popular a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.box-1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.box-1 p {
+    margin-top: 8px;
+    color: #24272CDE;
+}
+
+.fourth-part {
+    width: 1210px;
+    height: 336px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 40px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    overflow-y: hidden;
+
+}
+
+.fourth-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    color: black;
+}
+
+.fourth-part-list {
+    
+    justify-content: start;
+    width: 1200px;
+    margin-right: 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid #24272CDE;
+    padding-left: 10px;
+}
+
+.fourth-part-img {
+    height: 150px;
+    width: 186px;
+    margin: -18px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fourth-part .bike-brand a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.fourth-part .bike-brand a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.fifth-part {
+    width: 1210px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    overflow-y: hidden;
+    border-radius: 10px;
+    box-shadow: #24272CDE
+}
+
+.fifth-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    margin-left: 40p;
+    color: black;
+}
+
+.fifth-part-list {
+    
+    justify-content: start;
+    width: 1200px;
+    margin-right: 50px;
+    padding-top: 10px;
+    border-bottom: 2px solid #24272CDE;
+    padding-left: 10px;
+}
+
+.fifth-part-img {
+    height: 280px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.fifth-part-img p {
+    color: #24272CDE;
+    margin-top: 10px;
+    padding-left: 15px;
+
+}
+
+.fifth-part-img button {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    word-spacing: normal;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.fifth-part-img button :hover {
+    background-color: red;
+    color: white;
+}
+
+.fifth-part .electric-bike a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.fifth-part .electric-bike a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.fifth-part-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.fifth-part button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.sixth-part {
+    width: 1210px;
+    height: 430px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    overflow-y: hidden;
+    border-radius: 10px;
+    box-shadow: #24272CDE
+}
+
+.sixth-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    margin-left: 40p;
+    color: black;
+}
+
+.sixth-part-img {
+    height: 280px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.sixth-part-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.sixth-part-img p {
+    color: #24272CDE;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.sixth-part-img button {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    word-spacing: normal;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.sixth-part-img button :hover {
+    background-color: red;
+    color: white;
+}
+
+.sixth-part button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.sixth-part .latest-bike a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.sixth-part .latest-bike a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.seventh-part {
+    width: 1210px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    overflow-y: hidden;
+    border-radius: 10px;
+    box-shadow: #24272CDE
+}
+
+.seventh-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    margin-left: 40p;
+    color: black;
+}
+
+.seventh-part-img {
+    height: 280px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.seventh-part-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.seventh-part-img p {
+    color: #24272CDE;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.seventh-part-img button {
+    letter-spacing: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    word-spacing: normal;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.seventh-part-img button :hover {
+    background-color: red;
+    color: white;
+}
+
+.seventh-part button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.seventh-part .upcoming-launch a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.seventh-part .upcoming-launch a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.eight-part {
+    width: 1210px;
+    height: 490px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    overflow-y: hidden;
+    border-radius: 10px;
+    box-shadow: #24272CDE
+}
+
+.eight-part h1 {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 1700px;
+    margin-left: 40p;
+    color: black;
+}
+
+.eight-part-img {
+    height: 160px;
+    width: 150px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px 0 rgba(36, 39, 44, .25);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    display: inline-block;
+}
+
+.eight-part-img p {
+    margin-left: 30px;
+    color: black;
+
+}
+
+.eight-part-img img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.eight-part .read-more a {
+    font-weight: bolder;
+    font-size: large;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: #24272CDE;
+    color: red;
+}
+
+.eight-part-img .text a {
+    margin-left: 35px;
+    font-size: 10px;
+    text-transform: lowercase;
+    color: #24272CDE;
+}
+
+.seventh-part .read-more a:after {
+    background: url(https://bd.gaadicdn.com/pwa/img/bottomRight-aroowv1.svg);
+    color: red;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+
+.states-button-p {
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(120, 121, 125);
+    font-size:x-large;
+}
+
+.states-button-pp {
+    text-align: center;
+    color: rgb(120, 121, 125);
+    font-size: x-large;
+}
+
+.states-button { 
+    height: 350px;
+    width: 400px;
+    margin-top: -35%;
+    margin-left: 66%;
+}
+.states-button select{
+    border-radius: 5px;
+    margin-top: 10%;
+    width: 350px;
+    height: 40px;
+    font-size: large;
+    box-shadow:0 1px 3px 0 rgba(36, 39, 44, .25);
+   
+}
+.ninth{
+    height: 370px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    text-transform:uppercase;
+   
+}
+.about{
+    position: absolute;
+    width: 178px;
+    height: 300px;
+  margin-top: 70px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+.connect{
+    position: absolute;
+    width: 204px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 70px;
+    text-transform:uppercase;
+}
+.others{
+    position: absolute;
+    width: 211px;
+    height: 300px;
+    margin-left:660px; 
+    margin-top: 70px;
+}
+.app{
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 950px;
+}
+.app img{
+    width: 170px;
+    height: 60px;
+}
+.ninth a{
+    font-size: small;
+    text-transform:capitalize;
+}
+.footer-a{
+    border-bottom: #24272CDE;
+   margin-top: 330px;
+   border-top: solid 1px rgba(0, 0, 0, .12);
+
+}
+.footer a{
+    color: #24272CDE;
+    font-size: small;
+   
+}
+
+.footer-b {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: -17px;
+    color: black;
+}
+.footer-b i{
+    color: black;
+    margin-left: 35px;
+}
